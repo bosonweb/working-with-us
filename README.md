@@ -1,1 +1,3 @@
-# outsource-process-document
+# Outsource Process Document
+
+Thanks for working with us :)
