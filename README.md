@@ -4,7 +4,7 @@ We've written this document to help you work with us. We've done our best to mak
 
 ## Accessing the code repository
 
-We host our WordPress project's on our Bitbucket account. So, if you don't already have one you'll need to [create an account now](https://bitbucket.org/account/signup/). Once you've done that, send us your Bitbucket username and we'll grant you access to the relevant repository.
+We host our WordPress repositories within our Bitbucket account. So, if you don't already have one you'll need to [create an account now](https://bitbucket.org/account/signup/). Once you've done that, send us your Bitbucket username and we'll grant you access to the relevant repository.
 
 ## Setting up the project
 
