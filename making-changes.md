@@ -8,7 +8,7 @@ Therefore all markup and CSS should be written inline with [Twitter Bootstrap's 
 
 The CSS is written using Sass. You must use Sass when editing the stylesheets.
 
-Once the Theme is installed, edit the Sass files within the `scss/` directory and run the Sass watch command
+Once the [Theme is installed](https://github.com/ninefortyone/working-with-us/blob/master/set-up.md), edit the Sass files within the `scss/` directory and run the Sass watch command:
 
 ```
 $ cd wp-content/themes/startline
