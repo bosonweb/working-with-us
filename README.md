@@ -1,3 +1,3 @@
 # Outsource Process Document
 
-Thanks for working with us :)
+Thanks for working with us :smile:
