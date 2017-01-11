@@ -52,7 +52,8 @@ You would then add the variable to the `//== Overrides` section like this:
 //== Overrides
 $icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
 
-$screen-xs: 500px
+// Changing the default value of $screen-xs.
+$screen-xs: 500px;
 
 //== Import
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
