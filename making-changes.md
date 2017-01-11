@@ -9,7 +9,7 @@ We base our WordPress Themes off of Startline as it acts as a starting point for
 
 Therefore all markup and CSS should be written inline with [Twitter Bootstrap's guidelines](http://getbootstrap.com/css/). In addition to this, any JavaScript should be written in [jQuery](https://jquery.com/) and all icons should be from the [Font Awesome library](http://fontawesome.io/icons/)
 
-The CSS is written using Sass. You must use Sass when editing the stylesheets.
+The CSS is written using Sass. You **must use Sass** when editing the stylesheets.
 
 Once the [Theme is installed](https://github.com/ninefortyone/working-with-us/blob/master/set-up.md), edit the Sass files within the `wp-content/themes/startline/scss/` directory and run the Sass watch command:
 
