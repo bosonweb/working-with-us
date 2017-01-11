@@ -13,11 +13,28 @@ Therefore all markup and CSS should be written inline with [Twitter Bootstrap's 
 
 The CSS is written using Sass. You must use Sass when editing the stylesheets.
 
-Once the [Theme is installed](https://github.com/ninefortyone/working-with-us/blob/master/set-up.md), edit the Sass files within the `scss/` directory and run the Sass watch command:
+Once the [Theme is installed](https://github.com/ninefortyone/working-with-us/blob/master/set-up.md), edit the Sass files within the `wp-content/themes/startline/scss/` directory and run the Sass watch command:
 
 ```
 $ cd wp-content/themes/startline
 $ sass --watch scss/main.scss:css/main.min.css
 ```
 
-Any changes you make to the Sass files thereafter are automatically written to the Theme's CSS files.
+Any changes you make to the Sass files thereafter are automatically written to the Theme's CSS directory `wp-content/themes/startline/css/`.
+
+## Making changes to Twitter Bootstrap
+If you want to make changes to the core of Bootstrap, let's say you wanted to adjust the media query width for `screen-xs` then you do so in `wp-content/themes/startline/scss/main.scss`. At the top of this file you'll see a section where you can override variables before Bootstrap is loaded.
+
+```css
+//
+// Bootstrap
+// --------------------------------------------------
+
+//== Overrides
+$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+
+//== Import
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+...
+```
