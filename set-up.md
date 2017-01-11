@@ -12,7 +12,7 @@ We'll have a specific branch for you to `clone`. We'll give you the details when
 
 ## Installing the code
 
-We only version control the project's Theme and Plugins, not the WordPress core. So that's `wp-content/` downwards. Therefore you'll need to clone the repository into a working WordPress install.
+We only version control the project's Theme and Plugins, not the WordPress core. So that's `wp-content/` downwards. Therefore you'll need to clone the repository into a working WordPress install that you already have set up.
 
 ## Installing the database
 
