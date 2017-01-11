@@ -18,7 +18,7 @@ $ cd wp-content/themes/startline
 $ sass --watch scss/main.scss:css/main.min.css
 ```
 
-Any changes you make to the Sass files thereafter are automatically written to the Theme's CSS directory `wp-content/themes/startline/css/`.
+Any changes you make to the Sass files thereafter are *automatically* written to the Theme's CSS directory `wp-content/themes/startline/css/`. Just refresh your browser as usual and you'll see your changes.
 
 ## Making changes to Twitter Bootstrap core
 
