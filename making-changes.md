@@ -23,7 +23,9 @@ $ sass --watch scss/main.scss:css/main.min.css
 Any changes you make to the Sass files thereafter are automatically written to the Theme's CSS directory `wp-content/themes/startline/css/`.
 
 ## Making changes to Twitter Bootstrap
-If you want to make changes to the core of Bootstrap, let's say you wanted to adjust the media query width for `screen-xs` then you do so in `wp-content/themes/startline/scss/main.scss`. At the top of this file you'll see a section where you can override variables before Bootstrap is loaded.
+If you want to make changes to the core of Bootstrap (let's say you wanted to adjust the media query width for `screen-xs`) then you do so in `wp-content/themes/startline/scss/main.scss`. 
+
+At the top of this file you'll see a section (`//== Overrides`) where you can override variables before Bootstrap is loaded.
 
 ```css
 //
