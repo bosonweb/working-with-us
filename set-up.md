@@ -1,7 +1,7 @@
-# Index
+### Index
 
  - [Initial Set Up](https://github.com/ninefortyone/working-with-us/blob/master/set-up.md)
- - [Making changes](https://github.com/ninefortyone/working-with-us/blob/master/making-changes.md)
+ - [Making Changes](https://github.com/ninefortyone/working-with-us/blob/master/making-changes.md)
 
 # Thanks for working with us :smile:
 
