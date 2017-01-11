@@ -20,3 +20,5 @@ We only version control the project's Theme and Plugins, not the WordPress core.
 ## Installing the database
 
 So that the Plugins work and so that you have some seed data to work with, we'll supply you with a database when you start the project.
+
+[Making changes >](https://github.com/ninefortyone/working-with-us/blob/master/making-changes.md)
