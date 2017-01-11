@@ -3,7 +3,7 @@
 
 # Making Changes
 
-Each Theme we build is built on top of [Startline](https://github.com/ninefortyone/startline). When the project is handed over to you the Theme will be under a different name, but it's important to know its foundation.
+Each Theme we build is built on top of [Startline](https://github.com/ninefortyone/startline). When the project is handed over to you the Theme will be under a different name, but it's important to know its foundation. *With this is mind, any code examples in this document that reference startline will need to be replaced with the name of the theme you're working with*
 
 We base our WordPress Themes off of Startline as it acts as a starting point for themes that use both [Twitter Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/). It also comes bundled with the [HTML5 Shiv](https://github.com/aFarkas/html5shiv) and [Respond.js](https://github.com/scottjehl/Respond) utilities. Therefore it saves us a bunch of work upfront :godmode:
 
