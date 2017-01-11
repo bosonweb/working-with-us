@@ -57,3 +57,7 @@ $screen-xs: 500px
 
 ...
 ```
+
+Then as soon you save `main.scss`, Bootstrap is recompiled with it's core variables changed.
+
+A full list of the Bootstrap variables that can be overwritten are found in `wp-content/themes/startline/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss`
