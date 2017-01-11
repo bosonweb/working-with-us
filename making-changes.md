@@ -42,7 +42,7 @@ $icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
 ...
 ```
 
-You would then add the variable like this:
+You would then add the variable to the `//== Overrides` section like this:
 
 ```css
 //
@@ -51,6 +51,7 @@ You would then add the variable like this:
 
 //== Overrides
 $icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+
 $screen-xs: 500px
 
 //== Import
