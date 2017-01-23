@@ -21,6 +21,8 @@ $ sass --watch scss/main.scss:css/main.min.css
 
 Any changes you make to the Sass files thereafter are *automatically* written to the Theme's CSS directory `wp-content/themes/startline/css/`. Just refresh your browser as usual and you'll see your changes.
 
+**If you're making changes to a ZIP archive, please keep a list of the Sass, JavaScript and image files you've changed. We'll need this list to be able to depoy the changes to our staging server for review.**
+
 ## Making changes to Twitter Bootstrap core
 
 If you need to make changes to the core of Bootstrap (let's say you wanted to adjust the media query width for `screen-xs` from 480px to 500px) then you do so in `wp-content/themes/startline/scss/main.scss`. 
