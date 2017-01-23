@@ -41,6 +41,8 @@ Directories you don't need to modify are:
 
 `node_modules/` - Only the `$ npm` command should write to this directory.
 
+*Please don't create any new directories unless we've agreed previously.*
+
 **If you're making changes to a ZIP archive, please keep a list of the Sass, JavaScript and image files you've changed. We'll need this list to be able to depoy the changes to our staging server for review.**
 
 ## Making changes to Twitter Bootstrap core
