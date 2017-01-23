@@ -21,6 +21,22 @@ $ sass --watch scss/main.scss:css/main.min.css
 
 Any changes you make to the Sass files thereafter are *automatically* written to the Theme's CSS directory `wp-content/themes/startline/css/`. Just refresh your browser as usual and you'll see your changes.
 
+## A more detailed look
+
+Within the Theme, you'll notice we've laid out the structure already.
+
+Your working directories are:
+
+`scss/` - All CSS files.
+`js/` - All JavaScript files.
+`img/` - All image assets.
+
+Directories you don't need to modify are:
+
+`css/` - Only the `$ sass --watch` command should write to this directory.
+`fonts/` - Only the `$ sass --watch` command should write to this directory.
+`node_modules/` - Only the `$ npm` command should write to this directory.
+
 **If you're making changes to a ZIP archive, please keep a list of the Sass, JavaScript and image files you've changed. We'll need this list to be able to depoy the changes to our staging server for review.**
 
 ## Making changes to Twitter Bootstrap core
